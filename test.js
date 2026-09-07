@@ -1,6 +1,12 @@
-function testFunction() {
-  const x = 10;
-  return 20;
+function calculateAverage(numbers) {
+  return numbers.reduce((sum, number) => sum + number, 0) / numbers.length;
 }
 
-module.exports = testFunction;
+function getUserName(user) {
+  return user.name.toUpperCase();
+}
+
+module.exports = {
+  calculateAverage,
+  getUserName
+};
