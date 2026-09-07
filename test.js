@@ -3,7 +3,7 @@ function calculateAverage(numbers) {
 }
 
 function getUserName(user) {
-  return user.name.toUpperCase();
+ return user.name.toLowerCase();
 }
 
 module.exports = {
